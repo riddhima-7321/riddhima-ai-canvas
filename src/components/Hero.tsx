@@ -56,7 +56,7 @@ const Hero = () => {
               <img 
                 src={profileImageUrl} 
                 alt="Riddhima Singhal" 
-                className="w-full h-full object-contain object-center"
+                className="w-full h-full object-cover object-top scale-75"
               />
             </div>
             {/* Decorative elements */}
