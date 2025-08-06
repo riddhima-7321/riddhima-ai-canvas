@@ -1,6 +1,6 @@
 import { ArrowDown, Download, ExternalLink } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import profileImage from '@/assets/new-profile.jpg';
+import profileImage from '@/assets/riddhima-new-profile.jpg';
 
 const Hero = () => {
   const scrollToPortfolio = () => {
