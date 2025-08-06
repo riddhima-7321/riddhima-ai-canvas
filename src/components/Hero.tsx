@@ -1,6 +1,6 @@
 import { ArrowDown, Download, ExternalLink } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import profileImage from '@/assets/riddhima-new-profile.jpg';
+const profileImageUrl = '/lovable-uploads/5561d1e6-83d8-4c51-ad86-1d512e86bf49.png';
 
 const Hero = () => {
   const scrollToPortfolio = () => {
@@ -54,9 +54,9 @@ const Hero = () => {
           <div className="relative">
             <div className="w-80 h-80 rounded-full overflow-hidden shadow-2xl floating-animation">
               <img 
-                src={profileImage} 
+                src={profileImageUrl} 
                 alt="Riddhima Singhal" 
-                className="w-full h-full object-cover"
+                className="w-full h-full object-cover object-center"
               />
             </div>
             {/* Decorative elements */}
