@@ -52,7 +52,7 @@ const Hero = () => {
         {/* Right side - Profile image */}
         <div className="flex justify-center md:justify-end">
           <div className="relative">
-            <div className="w-80 h-80 rounded-full overflow-hidden shadow-2xl floating-animation">
+            <div className="w-80 h-80 rounded-full overflow-hidden shadow-2xl floating-animation bg-white">
               <img 
                 src={profileImageUrl} 
                 alt="Riddhima Singhal" 
